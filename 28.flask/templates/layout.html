@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퍼스널 컬러 페이지</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .color-box {
+            width: 100%;
+            height: 200px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .color-item {
+            width: 30%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .color-item h3 {
+            color: #333;
+        }
+        .color-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>퍼스널 컬러 분석</h1>
+        <p>나에게 맞는 퍼스널 컬러를 찾아보세요!</p>
+    </header>
+
+    <section>
+        <h2>퍼스널 컬러란?</h2>
+        <p>
+            퍼스널 컬러는 각 사람에게 어울리는 색상군을 의미합니다. 이는 피부 톤, 눈동자 색, 머리카락 색 등에 따라 달라집니다.
+            퍼스널 컬러를 알면 자신에게 가장 잘 어울리는 색상을 선택하여 더욱 자연스럽고 자신감 있게 스타일링할 수 있습니다.
+        </p>
+    </section>
+
+    <section>
+        <h2>퍼스널 컬러 유형</h2>
+        <div class="content">
+            <!-- 봄 타입 -->
+            <div class="color-item">
+                <h3>봄(SPRING)</h3>
+                <div class="color-box" style="background-color: #FFB6C1;"></div>
+                <p>밝고 따뜻한 색상들이 특징입니다. 연한 파스텔톤과 선명한 색이 어울립니다.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR43Q5032cLrtbzjqEFKPhwYB__gGbJPYio9A&s" alt="봄 타입 이미지">
+            </div>
+
+            <!-- 여름 타입 -->
+            <div class="color-item">
+                <h3>여름(SUMMER)</h3>
+                <div class="color-box" style="background-color: #A3C1D1;"></div>
+                <p>차분하고 부드러운 색상들이 어울립니다. 파스텔톤의 차가운 색상들이 주를 이룹니다.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWN1QIx4jMLvgBcb03kXAIkINQ4WJJRtV22A&s" alt="여름 타입 이미지">
+            </div>
+
+            <!-- 가을 타입 -->
+            <div class="color-item">
+                <h3>가을(AUTUMN)</h3>
+                <div class="color-box" style="background-color: #D2691E;"></div>
+                <p>따뜻하고 깊이 있는 색상들이 특징입니다. 주로 어두운 색상과 자연적인 톤들이 어울립니다.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDzEtgcAIRQGMet4KVy44MN-bMX2UXPuOmbQ&s" alt="가을 타입 이미지">
+            </div>
+
+            <!-- 겨울 타입 -->
+            <div class="color-item">
+                <h3>겨울(WINTER)</h3>
+                <div class="color-box" style="background-color: #1C1C1C;"></div>
+                <p>강렬하고 선명한 색상이 잘 어울립니다. 주로 차가운 톤과 선명한 색상이 특징입니다.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCK7_H2ufM1wrf7jUcXzoPyEsamDKZbvCdDw&s" alt="겨울 타입 이미지">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 퍼스널 컬러 분석 사이트</p>
+    </footer>
+
+</body>
+</html>
